@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: darkgreen;
+    text-align: center;
+    position: relative;
+}
+h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#score {
+    position: absolute;
+    left: 150px;
+    top: 300px;
+    font-size: 50px;
+}
+
+.content, #single {
+    width: 1000px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+}
+#single {
+    padding-top:100px;
+}
+#single img {
+    width: 120px;
+}
+
+#deck {
+    width: 199px;
+    text-align: center;
+    margin-top: 150px;
+    float: left;
+}
+
+#deck img {
+    width: 135px;
+
+}
+
+#display {
+    width: 596px;
+    float: left;
+}
+
+#display img {
+    margin-top: 140px;
+    width: 100px;
+}
+
+#discardDeck {
+    width: 199px;
+    float: right;
+}
+
+#discardDeck img {
+    margin-top: 140px;
+    width: 100px;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: white;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
